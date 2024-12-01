@@ -1,0 +1,26 @@
+name: flutter_bloc_cli_plus
+description: CLI tool for rapidly scaffolding Flutter projects with BLoC architecture and code generation.
+version: 1.0.4
+repository: https://github.com/dharmeshgondaliya/flutter_bloc_cli_plus
+
+platforms:
+  linux:
+  macos:
+  windows:
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  dart_style: ^2.3.6
+  dcli: ^6.0.5
+  process_run: ^0.14.2
+  pubspec: ^2.3.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+
+executables:
+  bloc:
+  cubit:
